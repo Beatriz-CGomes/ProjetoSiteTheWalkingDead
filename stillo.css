@@ -4,7 +4,7 @@ body {
     height: 100vh;
     width: 100%;
     background-color: rgb(0, 0, 0, 0.75);
-    background-image: url(../FundamentosHTML/img/twd12.png);
+    background-image: url(../FundamentosHTML/img/fundo2.png);
     font-family: Open Sans, sans-serif;
     background-image: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body::before {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 69px;
+    top: 70px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -75,66 +75,151 @@ body::before {
     margin-top: 100px;
 }
 
-.login-body ul li{
-    font-size: 22px;
-    color: #fff;
+.login-body ul li {
     display: inline-block;
     list-style: none;
     text-transform: uppercase;
-    display: inline-block;
-    
 }
 
-.login-body ul li a{
+.login-body ul li a {
     font-size: 22px;
     color: white;
-    display: flex;
-    list-style: none;
-    text-transform: uppercase;
-    margin-top: 0;
     font-weight: bold;
     display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+
+.login-body input {
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.input_box {
+    margin-bottom: 15px;
+}
+
+.login-body input:hover {
+    background-color: #444;
+}
+
+.submit {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: #fd0000;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.login-body button:hover {
+    background-color: #ff0e1a;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Login final */
+
+
+
+.suporte {
+    display: flex;
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.suporte input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+
+.help a {
+    text-decoration: none;
+    color: #737373;
 
 }
 
-.login-body img{
-    color: black;
+.help a:hover {
+    text-decoration: underline;
 }
 
+.sing_up {
+    color: #737373;
+    font-size: 16px;
+}
 
+.sing_up a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 5px;
+}
 
+.sing_up a:hover {
+    text-decoration: underline;
+}
 
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
 
+.terms a:hover {
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
 
 /* ---------------------------------------------------- */
 
 /* footer  */
-.footer{
+.footer {
     background-color: #fd0000;
     height: 80px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
 }
 
-.footer ul li{
+.footer ul li {
     display: inline-block;
     list-style: none;
- 
-    
+
+
 }
 
-.footer ul li a{
+.footer ul li a {
     display: inline-block;
     color: black;
     padding: 10px;
