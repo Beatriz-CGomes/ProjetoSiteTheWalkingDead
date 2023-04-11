@@ -1,0 +1,210 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Open Sans, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: cover;
+
+
+}
+
+/* Menu Vermelho */
+.menu-principal {
+
+    background-color: #fd0000;
+    height: 80px;
+    margin-top: -0.5em;
+}
+
+/* Imagem Logo */
+.logo {
+    margin-left: 100px;
+    margin-top: 2px;
+    width: 10%;
+    float: left;
+}
+
+/* ---------------------------------------------------- */
+
+/* Icones */
+.line ul li {
+    margin-right: 15px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+
+}
+
+.line {
+    float: right;
+    margin-right: 145px;
+    width: 15;
+    margin-top: 12px;
+}
+
+/* ---------------------------------------------------- */
+
+/* Menu de categoria  */
+
+.Fundo-Categorias {
+    background-color: rgb(27, 26, 26);
+    margin: 0 auto;
+    padding: 1px;
+    height: 44px;
+    border-bottom: 0.5px solid #fd0000;
+
+}
+
+
+.categorias ul li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-align: center;
+
+
+}
+
+.categorias ul li a {
+    color: white;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.categorias ul li a:hover {
+    color:  #fd0000;
+}
+
+.categorias ul li:hover{
+    border-bottom: 2px solid #fd0000;
+}
+
+.categorias{
+    text-align: center;
+}
+
+/* ---------------------------------------------------- */
+
+/* Formulario login  */
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+
+.form label{
+    color: white;
+    margin-left: 100px;
+}
+
+.form input{
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    background-color:rgb(235, 229, 229);
+    margin-left: 100px;
+    height: 25px;
+    width: 350px;
+ 
+}
+
+.form textarea{
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color:rgb(235, 229, 229);
+    margin-left: 100px; 
+    width: 350px;
+}
+
+.form button{
+    
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 100px; 
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 13.3px;
+    font-weight: bolder;
+    background-color: #fd0000;;
+}
+
+
+.login-body{
+    padding: -1px;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+.img h3 {
+    color: white;
+    font-size: 20px;
+    margin-right: 190px;
+}
+
+.img img{
+    padding: 3px;
+}
+
+
+.img p {
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    color: #998f8f;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+hr {
+    color: #333;
+}
+
+
+/* ---------------------------------------------------- */
+/* footer  */
+.footer {
+    background-color: #fd0000;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+
+
+}
+
+.footer ul li a {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
