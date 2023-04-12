@@ -141,7 +141,7 @@ body {
     color: white;
     font-size: 13.3px;
     font-weight: bolder;
-    background-color: #fd0000;;
+    background-color: #fd0000;
 }
 
 
@@ -149,6 +149,17 @@ body {
     padding: -1px;
 }
 
+.form input:hover {
+    background-color: #444;
+}
+
+.form textarea:hover {
+    background-color: #444;
+}
+
+.form button:hover {
+    background-color: #f5323c;
+}
 
 
 /* ---------------------------------------------------- */

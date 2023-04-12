@@ -8,7 +8,7 @@
     <title>The Walking Dead</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="../ProjetoSiteTheWalkingDead/css/estillo.css">
+    <link rel="stylesheet" href="../ProjetoSiteTheWalkingDead/assents/css/estillo.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <header class="menu-principal">
         <div class="logo">
             <a href="index.html">
-                <img src="../ProjetoSiteTheWalkingDead/img/logo23.png" alt="" width="200">
+                <img src="../ProjetoSiteTheWalkingDead/assents/img/logo23.png" alt="" width="200">
             </a>
         </div>
 
@@ -28,13 +28,13 @@
         <nav class="line">
             <ul>
                 <li><a href="index.html">
-                        <img src="img/mao.png" width="30" />
+                        <img src="assents/img/mao.png" width="30" />
                     </a></li>
                 <li><a href="index.html">
-                        <img src="img/zumbi.png" width="30" />
+                        <img src="assents/img/zumbi.png" width="30" />
                     </a></li>
                 <li><a href="index.html">
-                        <img src="img/meio.png" width="30" />
+                        <img src="assents/img/meio.png" width="30" />
                     </a></li>
             </ul>
         </nav>
@@ -78,10 +78,10 @@
                 <br>
 
                 <h3>SIGA-NOS</h3>
-                <img src="../ProjetoSiteTheWalkingDead/img/facebook.png" alt="" width="30">
-                <img src="../ProjetoSiteTheWalkingDead/img/tt.png" alt="" width="30">
-                <img src="../ProjetoSiteTheWalkingDead/img/instagram.png" alt="" width="30">
-                <img src="../ProjetoSiteTheWalkingDead/img/google.png" alt="" width="30">
+                <img src="../ProjetoSiteTheWalkingDead/assents/img/facebook.png" alt="" width="30">
+                <img src="../ProjetoSiteTheWalkingDead/assents/img/tt.png" alt="" width="30">
+                <img src="../ProjetoSiteTheWalkingDead/assents/img/instagram.png" alt="" width="30">
+                <img src="../ProjetoSiteTheWalkingDead/assents/img/google.png" alt="" width="30">
                 <br>
                 <br>
                 <p>° 2023 Politica de privacidade</p>
@@ -100,23 +100,27 @@
                 <div class="form">
                     <form action="">
 
-                        <input type="text" id="nome" placeholder="Nome: ">
-                        <br>
-                        <br>
-
-
-
-                        <input type="email" id="email" placeholder="Email:">
-                        <br>
+                        <input type="text" id="nome" placeholder="Nome:" onkeyup="validaNome()">
+                        <div id='txtNome'>
+                        </div>
                         <br>
 
 
-                        <textarea name="assunto" id="assunto" cols="20" rows="10"
-                            placeholder="Digite sua mensagem:"></textarea>
+
+                        <input type="email" id="email" placeholder="Email:" onkeyup="validaEmail()">
+                        <div id='txtEmail'>
+                        </div>
+                        <br>
+
+
+                        <textarea name="assunto" id="assunto" cols="20" rows="6" placeholder="Digite sua mensagem:"
+                            onkeyup="validaAssunto()"></textarea>
+                        <div id='txtAssunto'>
+                        </div>
 
                         <br>
                         <br>
-                        <button>Enviar</button>
+                        <button onclick="enviar()" >Enviar</button>
                     </form>
                 </div>
             </div>
@@ -130,18 +134,21 @@
 
             <!--Footer -->
 
-    <div class="footer">
-        <ul>
-            <li><a href="">2023 </a></li>
-            <li><a href="">The Walking Dead BR - Sua maior e melhor fonte brasileira sobre o universo The Walking Dead.
-                </a></li>
-            <li><a href="">
-                    <img src="../ProjetoSiteTheWalkingDead/img/mail.png" alt="foto de um email" width="30">
-                </a></li>
-        </ul>
+            <div class="footer">
+                <ul>
+                    <li><a href="">2023 </a></li>
+                    <li><a href="">The Walking Dead BR - Sua maior e melhor fonte brasileira sobre o universo The
+                            Walking Dead.
+                        </a></li>
+                    <li><a href="">
+                            <img src="../ProjetoSiteTheWalkingDead/assents/img/mail.png" alt="foto de um email"
+                                width="30">
+                        </a></li>
+                </ul>
 
-    </div>
+            </div>
 
+            <script src="./assents/js/script.js"></script>
 
 </body>
 
