@@ -21,10 +21,16 @@ function validaNome() {
     if (nome.value.length < 3) {
         txtNome.innerHTML = 'Nome invalido!'
         txtNome.style.color = 'red';
+        txtNome.style.fontSize = '13px'
+        txtNome.style.textAlign = 'center';
+        txtNome.style.marginTop = '6px';
      
     } else {
         txtNome.innerHTML = 'Nome valido'
         txtNome.style.color = 'green';
+        txtNome.style.fontSize = '13px'
+        txtNome.style.textAlign = 'center';
+        txtNome.style.marginTop = '6px';
         nomeOk = true;
     }
 }
@@ -34,11 +40,16 @@ function validaEmail() {
     if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = 'E-mail invalido';
         txtEmail.style.color = 'red';
-        txtEmail.style.fontSize = '1px'
+        txtEmail.style.fontSize = '13px'
+        txtEmail.style.textAlign = 'center';
+        txtEmail.style.marginTop = '6px';
+
     } else {
         txtEmail.innerHTML = 'E-mail valido!';
         txtEmail.style.color = 'green';
-        txtEmail.style.fontSize = '1px'
+        txtEmail.style.fontSize = '13px'
+        txtEmail.style.textAlign = 'center';
+        txtEmail.style.marginTop = '6px';
         emailOk = true
     }
 
@@ -50,8 +61,14 @@ function validaAssunto() {
         txtAssunto.innerHTML = 'Texto é muito grande, digite no máximo 100 caracteres';
         txtAssunto.style.color = 'red';
         txtAssunto.style.display = 'block';
+        txtAssunto.style.fontSize = '13px'
+        txtAssunto.style.textAlign = 'center';
+        txtAssunto.style.marginTop = '6px';
     } else {
         txtAssunto.style.display = 'none';
+        txtAssunto.style.fontSize = '13px'
+        txtAssunto.style.textAlign = 'center';
+        txtAssunto.style.marginTop = '6px';
         assuntoOk = true
     }
 
